@@ -4,6 +4,7 @@ function Footer() {
       <h3>⚖️ María Luisa Meneses</h3>
       <p>Abogada Penalista</p>
       <p>Buenos Aires, Argentina</p>
+      <p>Derecho Penal</p>
     </footer>
   );
 }
