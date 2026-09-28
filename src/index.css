@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family:
+    "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.navbar {
+  background-color: rgb(38, 38, 82);
+  color: wheat;
+  padding: 20px 40px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-links {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+  
+}
+.hero {
+  background-color: #e2d9ca;
+  padding: 70px 40px;
+}
+
+.hero-content {
+  max-width: 800px;
+}
+
+.hero h1 {
+  font-size: 48px;
+  margin: 10px 0;
+}
+
+.hero h3 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.hero p {
+  font-size: 18px;
+}
+.especialidades {
+  padding: 50px 40px;
+  text-align: center;
+}
+
+.especialidades h2 {
+  margin-bottom: 30px;
+  font-size: 30px;
+}
+
+.especialidades-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.especialidades-container div {
+  width: 150px;
+  height: 150px;
+  background-color: #f5f0e8;
+  border-radius: 50%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  padding: 20px;
+}
+.tareas-container {
+  display: flex;
+  gap: 30px;
+  padding: 50px 40px;
+}
+
+.tareas {
+  width: 60%;
+  padding: 25px;
+  background-color: #f5f0e8;
+}
+
+.form-tarea {
+  width: 40%;
+  padding: 25px;
+  background-color: #f5f0e8;
+}
+
+.form-tarea label {
+  display: block;
+  margin: 15px 0 8px;
+}
+
+.form-tarea textarea {
+  width: 100%;
+  height: 100px;
+  padding: 10px;
+}
+
+.form-tarea button {
+  width: 100%;
+  margin-top: 15px;
+  padding: 12px;
+  cursor: pointer;
+}
+.footer {
+  background-color: rgb(38, 38, 82);
+  color:rgb(187, 179, 141) ;
+  text-align: center;
+  padding: 10PX;
+}
