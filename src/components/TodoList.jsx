@@ -1,4 +1,4 @@
-function TodoList() {
+function TodoList({ tasks }) {
   return (
     <section className="tareas">
       <h2>Gestión de Tareas</h2>
@@ -15,9 +15,9 @@ function TodoList() {
       </div>
 
       <div className="lista-tareas">
-        <p>☐ Revisar expediente</p>
-        <p>☐ Preparar documentación</p>
-        <p>☐ Llamar a cliente</p>
+        {tasks.map((task, index) => (
+          <p key={index}>□ {task}</p>
+        ))}
       </div>
     </section>
   );
