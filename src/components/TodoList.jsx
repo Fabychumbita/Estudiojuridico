@@ -1,4 +1,4 @@
-function TodoList({ tasks }) {
+function TodoList({ tasks, completeTask }) {
   return (
     <section className="tareas">
       <h2>Gestión de Tareas</h2>
@@ -16,7 +16,13 @@ function TodoList({ tasks }) {
 
       <div className="lista-tareas">
         {tasks.map((task, index) => (
-          <p key={index}>□ {task}</p>
+          <p
+            key={index}
+            onClick={() => completeTask(index)}
+            style={{ textDecoration: task.completed ? "line-through" : "none" }}
+          >
+            □ {task.text}
+          </p>
         ))}
       </div>
     </section>
