@@ -12,13 +12,13 @@ function Form( {addTask}) {
     <div className="form-tarea">
       <h2>Nueva Tarea</h2>
 
-      <label>Descripción de la tarea</label>
-      <textarea
-      placeholder="Ej: Revisar expediente..."
-      value={task}
-      onChange={(e) => setTask(e.target.value)}
-      ></textarea>
-
+      <label> 📝 Descripción de la tarea</label>
+     <input
+  type="text"
+  placeholder="Ej: Revisar expediente..."
+  value={task}
+  onChange={(e) => setTask(e.target.value)}
+/>
      
 
       <button onClick={handleSubmit}>Agregar Tarea</button>
