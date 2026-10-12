@@ -11,7 +11,7 @@ body {
 }
 
 .navbar {
-  background-color: rgb(38, 38, 82);
+  background-color: rgb(62, 62, 110);
   color: wheat;
   padding: 20px 40px;
 
@@ -24,7 +24,6 @@ body {
   display: flex;
   list-style: none;
   gap: 30px;
-  
 }
 .hero {
   background-color: #e2d9ca;
@@ -61,7 +60,7 @@ body {
 .especialidades-container {
   display: flex;
   justify-content: center;
-  gap: 20px;
+  gap: 100px;
 }
 
 .especialidades-container div {
@@ -114,14 +113,13 @@ body {
 }
 .footer {
   background-color: rgb(38, 38, 82);
-  color:rgb(187, 179, 141) ;
+  color: rgb(187, 179, 141);
   text-align: center;
-  padding: 10PX;
+  padding: 10px;
 }
 /* RESPONSIVE */
 
 @media (max-width: 768px) {
-
   .navbar {
     flex-direction: column;
     gap: 15px;
@@ -172,5 +170,11 @@ body {
   .form-tarea {
     width: 100%;
   }
-
+  main {
+    background-image: url("/Estudiojuridico/imagen juridica.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+  }
 }
